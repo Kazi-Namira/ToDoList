@@ -24,8 +24,10 @@ todoForm.addEventListener("submit", (event) => {
   const date = dateInput.value;
   const taskText = todoInput.value.trim();
 
-  if (date && taskText) {
-    if (!tasks[date]) {
+  if (date && taskText) 
+  {
+    if (!tasks[date]) 
+    {
       tasks[date] = [];
     }
     tasks[date].push(taskText);
@@ -36,14 +38,18 @@ todoForm.addEventListener("submit", (event) => {
 
 function displayTasks(date) {
   taskContainer.innerHTML = "";
-  if (tasks[date]) {
+  if (tasks[date]) 
+  {
     tasks[date].forEach((task, index) => {
       const taskItem = document.createElement("div");
       taskItem.textContent = `${index + 1}. ${task}`;
       taskContainer.appendChild(taskItem);
     });
     taskCount.textContent = `Number of tasks: ${tasks[date].length}`;
-  } else {
+  }
+  else 
+  {
     taskCount.textContent = "Number of tasks: 0";
   }
 }
+
