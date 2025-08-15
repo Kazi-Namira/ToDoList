@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="icon"
+      href="./image/icons8-to-do-list-16.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>ToDoList</h1>
+      <h2>Stay organized and focused</h2>
+      <p>
+        Achieve mental clarity by sorting tasks into Today, Upcoming, or using
+        custom filters. See only what you need, when you need it.
+      </p>
+    </header>
+    <main>
+      <section class="input-section">
+        <div class="date-input">
+          <label for="date-input">Select Date:</label>
+          <input type="date" id="date-input" />
+        </div>
+
+        <div class="todo-input">
+          <label for="todo-input">Add Task:</label>
+          <form id="todo-form">
+            <input
+              type="text"
+              id="todo-input"
+              placeholder="Add a new task..."
+              required
+            />
+            <button type="submit">Add</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="display-section">
+        <div>Date: <span id="selected-date">No date selected</span></div>
+
+        <!-- Container for tasks of the selected date -->
+        <div id="task-list">Task List : </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <p>Made with ❤️ by Namira</p>
+  </footer>
+</html>

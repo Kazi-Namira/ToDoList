@@ -1,0 +1,56 @@
+body {
+  background-color: #fffafa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  color: rgba(179, 58, 58, 0.738);
+  border-bottom: 5px solid rgba(188, 61, 61, 0.738);
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+header p {
+  color: rgba(95, 87, 87, 0.792);
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.todo-date {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.todo-input {
+  display: flex;
+}
+
+.display-section {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
