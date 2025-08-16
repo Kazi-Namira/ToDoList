@@ -4,7 +4,7 @@ const todoInput = document.getElementById("todo-input");
 
 const tasksByDate = {};
 
-// Load tasks from localStorage when page loads
+// Load tasks from localStorage when page load
 window.addEventListener("load", () => {
   const savedTasks = localStorage.getItem("tasksByDate");
   if (savedTasks) {
