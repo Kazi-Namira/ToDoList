@@ -15,7 +15,7 @@ A simple and interactive **To-Do List** web application that allows users to org
 - **JavaScript**: Implemented task management, event handling, and `localStorage`.
 
 ## Live Demo
-[Check the live app here](https://to-do-list-by-namira.vercel.app/)
+[Check the live app here](https://to-do-list-by-namira-2yyvux3jt-namira-meyheg-s-projects.vercel.app/)
 
 ## Author
 Kazi Namira Meyheg  
