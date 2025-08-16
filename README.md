@@ -7,7 +7,7 @@ A simple and interactive **To-Do List** web application that allows users to org
 - 🗂 Display tasks grouped by date.
 - ✅ Mark tasks as completed with a checkbox.
 - ❌ Delete tasks.
-- 🖌️ Change background color using a theme button.
+- 🎨 Change background color using a theme button.
 
 ## Tech Stack
 - **HTML**: Structured the content of the app.
