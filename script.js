@@ -17,7 +17,8 @@ dateInput.addEventListener("change", () => {
   const date = dateInput.value;
   selectedDate.textContent = `Date: ${date}`;
   displayTasks(date);
-});
+}
+);
 
 todoForm.addEventListener("submit", (event) => {
   event.preventDefault();
