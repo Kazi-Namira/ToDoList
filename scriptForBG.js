@@ -2,6 +2,8 @@ let array = [
   "rgba(255, 211, 211, 0.52)",
   "rgba(255, 179, 179, 0.5)",
   "rgba(253, 161, 161, 0.5)",
+  "lightsteelblue",
+  "lavender",
   "white",
 ];
 let index = 0;
