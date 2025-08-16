@@ -64,6 +64,11 @@ function displayTasks() {
       delBtn.style.marginLeft = "10px";
       delBtn.addEventListener("click", () => {
         tasksByDate[date].splice(index, 1);
+
+        if (tasksByDate[date].length === 0) {
+          delete tasksByDate[date];
+        }
+
         displayTasks();
         saveTasks();
       });
